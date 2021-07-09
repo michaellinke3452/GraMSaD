@@ -1,0 +1,21 @@
+If you use the S1 or D1 dataset, make sure you provide
+the following copyright information:
+
+English:
+
+source 1:
+© GeoBasis-DE/LGB, dl-de/by-2-0, data changed 
+https://www.govdata.de/dl-de/by-2-0
+
+source 2:
+© hoydedata.no (CC BY 4.0)
+
+
+Deutsch:
+
+Quelle 1:
+© GeoBasis-DE/LGB, dl-de/by-2-0, Daten geändert
+https://www.govdata.de/dl-de/by-2-0
+
+Quelle 2:
+© hoydedata.no (CC BY 4.0)

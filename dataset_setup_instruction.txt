@@ -1,0 +1,36 @@
+Read the copyright.txt file first.
+
+How to build the Segmentation (S1) and Detection (D1) datasets:
+Open a Terminal in this folder (/datasets/) and copy the following commands. 
+
+
+
+
+D1:
+test set command:
+
+cat D1/D1_test/D1_test.h5.* > D1/D1_test/rebuild/D1_test.h5
+
+training set command:
+
+cat D1/D1_train/D1_train.h5.* > D1/D1_train/rebuild/D1_train.h5
+
+
+S1:
+test set command:
+
+cat S1/S1_test/S1_test.h5.* > S1/S1_test/rebuild/S1_test.h5
+
+training set command:
+
+cat S1/S1_train/S1_train.h5.* > S1/S1_train/rebuild/S1_train.h5
+
+
+After running the commands, you can find the H5-files in the rebuild folders. 
+
+Example for S1_train:
+After running the command 
+cat S1/S1_train/S1_train.h5.* > S1/S1_train/rebuild/S1_train.h5,
+there should be a new file named S1_train.h5 in:
+
+S1/S1_train/rebuild
